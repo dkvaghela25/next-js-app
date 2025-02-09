@@ -1,5 +1,5 @@
 /**
- * @jest-environment jsdom
+ * @jest-environment jsdom. This is used for testing.
  */
 import { render, screen } from "@testing-library/react";
 import Home from "@/pages/home/index";
