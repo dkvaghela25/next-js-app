@@ -44,8 +44,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: "Installing Dependencies"
+    - name: "Installing Dependencies Rajesh"
       run: npm i
 
-    - name: "Running test cases"
+    - name: "Running test cases Rajesh"
       run: npm run test
